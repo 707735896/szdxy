@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/jwxt/jwxt",
+    "pages/navigation/navigation",
+    "pages/history/history"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#6dc69c",
+    "navigationBarTitleText": "校园动态",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#359965",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "校园动态",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home_active.png"
+    }, {
+      "pagePath": "pages/navigation/navigation",
+      "text": "地图",
+      "iconPath": "image/reading.png",
+      "selectedIconPath": "image/reading_active.png"
+    },{
+      "pagePath": "pages/jwxt/jwxt",
+      "text": "教务系统",
+      "iconPath": "image/music.png",
+      "selectedIconPath": "image/music_active.png"
+    }]
+  }
+}
