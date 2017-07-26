@@ -1,4 +1,8 @@
 /**index.wxss**/
+page {
+  font-family: "Microsoft YaHei";
+}
+
 .banners {
   width: 100%;
   height: 200px;
